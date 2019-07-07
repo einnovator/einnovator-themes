@@ -1,0 +1,40 @@
+.card {
+	&-title {
+    margin-bottom: 0;
+	}
+	&-title-wrapper{
+		border-bottom: 1px solid #CBCFD2;
+	}
+	&-section {
+		border-bottom: thin solid #ccc;
+		padding: 1.25rem;
+	}
+	&-body-sections {
+		padding: 0;
+	}
+}
+
+.box, .card.box {
+	border: 1px solid rgb(206, 206, 231);
+	background-color:#F8F8F8;
+	
+	ul {
+		ul {
+			li {
+				&:hover {
+					background-color: #eee;
+				} 
+			}
+		}
+		li {
+			border-top: 2px solid white;
+		}
+		
+	}
+
+	h2, h3, .card-header {
+	}			
+	a, a:visited, a:hover, a:focus, a:active {
+	}
+
+}

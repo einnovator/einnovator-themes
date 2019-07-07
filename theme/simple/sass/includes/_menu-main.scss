@@ -1,0 +1,29 @@
+.container-nav {
+    background: $menu-bg  !important;
+    color: #fff;
+}
+
+
+.nav-menu a.nav-link {
+}
+
+.nav-menu a.nav-link:hover {
+	background-color: $menu-bg-hover;
+	color: $menu-hover;
+}
+.nav-menu a.nav-link.active, .nav-menu a.nav-link.nav-link.active:visited, .nav-menu a.nav-link.nav-link.active:hover, .nav-menu a.nav-link.active:focus, .nav-menu a.nav-link.active:active {
+}
+
+.dropdown {
+	font-size: medium;
+	min-width: 100px;
+}
+.nav-menu a.nav-link {
+	font-size: large;
+}
+
+.nav-menu {
+	.dropdown {
+		font-size: large;
+	}
+}

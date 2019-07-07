@@ -1,0 +1,401 @@
+/* line 1, theme/simple/sass/includes/_layout.scss */
+.layout {
+    padding-bottom: 0;
+}
+
+/* line 6, theme/simple/sass/includes/_layout.scss */
+.layout > * {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+/* line 11, theme/simple/sass/includes/_layout.scss */
+.layout > :first-child {
+    flex: .25;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+}
+  /* line 18, theme/simple/sass/includes/_layout.scss */
+.layout > :first-child.bg {
+    background-color: #2d6394;
+    border-right: 4px solid #eee;
+}
+
+/* line 24, theme/simple/sass/includes/_layout.scss */
+.layout > :last-child {
+    padding-left: 0;
+    flex: .3;
+}
+
+/* line 1, theme/simple/sass/includes/_header.scss */
+.container-nav {
+    color: #fff;
+    background: inherit;
+}
+
+/* line 6, theme/simple/sass/includes/_header.scss */
+.header {
+    background-color: inherit;
+    color: black;
+    width: 920px;
+    border-bottom: thin solid #ddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+  /* line 11, theme/simple/sass/includes/_header.scss */
+.header nav {
+    align-items: flex-start;
+}
+    /* line 13, theme/simple/sass/includes/_header.scss */
+.header nav > div {
+    height: inherit;
+}
+  /* line 17, theme/simple/sass/includes/_header.scss */
+.header .logo-box {
+    width: inherit;
+    border-right: thin solid #ddd;
+}
+  /* line 21, theme/simple/sass/includes/_header.scss */
+.header .header-logo {
+    height: 100px;
+    display: inline-block;
+    margin: 10px 30px 20px 50px;
+}
+
+/* line 34, theme/simple/sass/includes/_header.scss */
+.header-toolbar > li > a {
+    color: #666;
+    font-weight: 600;
+}
+  /* line 37, theme/simple/sass/includes/_header.scss */
+.header-toolbar > li > a:hover {
+    color: #888;
+}
+
+/* line 43, theme/simple/sass/includes/_header.scss */
+.dropdown {
+    background-color: inherit;
+}
+  /* line 45, theme/simple/sass/includes/_header.scss */
+.dropdown a {
+    font-weight: 600;
+}
+
+/* line 53, theme/simple/sass/includes/_header.scss */
+.nav .icon-hamburger {
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+}
+
+/* line 59, theme/simple/sass/includes/_header.scss */
+.nav .dropdown a, .nav .dropdown a:visited, .nav .dropdown .a:focus {
+    border-left: none;
+}
+
+/* line 62, theme/simple/sass/includes/_header.scss */
+.nav .dropdown a:hover, .nav .dropdown a:active {
+    background-color: #276FB1;
+    border-left: none;
+}
+
+/* line 69, theme/simple/sass/includes/_header.scss */
+.dropdown-avatar.circ.bg {
+    border: 3px solid white;
+}
+
+/* line 74, theme/simple/sass/includes/_header.scss */
+.dropdown .logout {
+    font-weight: 600;
+}
+
+/* line 78, theme/simple/sass/includes/_header.scss */
+.menu-wrapper {
+    background-color: inherit !important;
+    background: inherit !important;
+    border-top: 1px solid white;
+}
+
+/* line 88, theme/simple/sass/includes/_header.scss */
+.header-caption .header-caption-title img {
+    border-bottom: 1px solid white;
+}
+
+/* line 109, theme/simple/sass/includes/_header.scss */
+.footer {
+    border-top: 1px solid black;
+}
+
+/* line 1, theme/simple/sass/includes/_menu-main.scss */
+.container-nav {
+    background: inherit !important;
+    color: #fff;
+}
+
+/* line 10, theme/simple/sass/includes/_menu-main.scss */
+.nav-menu a.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+/* line 17, theme/simple/sass/includes/_menu-main.scss */
+.dropdown {
+    font-size: medium;
+    min-width: 100px;
+}
+
+/* line 21, theme/simple/sass/includes/_menu-main.scss */
+.nav-menu a.nav-link {
+    font-size: large;
+}
+
+/* line 26, theme/simple/sass/includes/_menu-main.scss */
+.nav-menu .dropdown {
+    font-size: large;
+}
+
+/* line 1, theme/simple/sass/includes/_common.scss */
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+/* line 10, theme/simple/sass/includes/_common.scss */
+.h1 {
+    color: black !important;
+}
+
+/* line 14, theme/simple/sass/includes/_common.scss */
+.h2 {
+    color: black !important;
+}
+
+/* line 18, theme/simple/sass/includes/_common.scss */
+.h2 {
+    color: black !important;
+}
+
+/* line 22, theme/simple/sass/includes/_common.scss */
+.primary {
+    color: black !important;
+}
+
+/* line 26, theme/simple/sass/includes/_common.scss */
+.primary-hover {
+    color: #444 !important;
+}
+
+/* line 30, theme/simple/sass/includes/_common.scss */
+.hbar {
+    border-bottom: thin solid black;
+}
+
+/* line 7, theme/simple/sass/includes/_forms.scss */
+.login-form .form-control, .signup-form .form-control, .recover-form .form-control, .confirm-form .form-control, .chpass-form .form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+/* line 13, theme/simple/sass/includes/_forms.scss */
+input[type='checkbox'], input.form-check:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/*============================================================================
+	Checkmark
+============================================================================*/
+/* line 6, theme/simple/sass/includes/_checkmark.scss */
+.checkmark-wrapper .checkmark, .checkmark-wrapper .radiomark {
+    border: thin solid black;
+}
+
+/* line 10, theme/simple/sass/includes/_checkmark.scss */
+.checkmark-wrapper:hover input ~ .checkmark, .checkmark-wrapper:hover input ~ .radiomark {
+  /* On mouse-over */
+    background-color: #444;
+}
+
+/* line 14, theme/simple/sass/includes/_checkmark.scss */
+.checkmark-wrapper input:checked ~ .checkmark, .checkmark-wrapper input:checked ~ .radiomark {
+  /* On checked */
+    background-color: black;
+}
+
+/*============================================================================
+  Container  v1
+============================================================================*/
+/* line 8, theme/simple/sass/includes/_container.scss */
+.footer {
+    margin: 10px 40px;
+    border-top: thin solid #444;
+}
+
+/* line 1, theme/simple/sass/includes/_buttons.scss */
+.btn-primary, a.btn-primary {
+    background: black !important;
+    border: black !important;
+    color: white !important;
+}
+
+/* line 6, theme/simple/sass/includes/_buttons.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #444 !important;
+    box-shadow: none !important;
+}
+
+/* line 11, theme/simple/sass/includes/_buttons.scss */
+.btn-secondary, a.btn-secondary {
+    background: #444 !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* line 17, theme/simple/sass/includes/_buttons.scss */
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    background-color: #666 !important;
+    box-shadow: none !important;
+}
+
+/* line 22, theme/simple/sass/includes/_buttons.scss */
+.btn-link {
+    color: black;
+}
+  /* line 24, theme/simple/sass/includes/_buttons.scss */
+.btn-link:hover {
+    text-decoration: none;
+    color: #444;
+}
+
+/* line 2, theme/simple/sass/includes/_card.scss */
+.card-title {
+    margin-bottom: 0;
+}
+
+/* line 5, theme/simple/sass/includes/_card.scss */
+.card-title-wrapper {
+    border-bottom: 1px solid #CBCFD2;
+}
+
+/* line 8, theme/simple/sass/includes/_card.scss */
+.card-section {
+    border-bottom: thin solid #ccc;
+    padding: 1.25rem;
+}
+
+/* line 12, theme/simple/sass/includes/_card.scss */
+.card-body-sections {
+    padding: 0;
+}
+
+/* line 17, theme/simple/sass/includes/_card.scss */
+.box, .card.box {
+    border: 1px solid #cecee7;
+    background-color: #F8F8F8;
+}
+  /* line 24, theme/simple/sass/includes/_card.scss */
+.box ul ul li:hover, .card.box ul ul li:hover {
+    background-color: #eee;
+}
+  /* line 29, theme/simple/sass/includes/_card.scss */
+.box ul li, .card.box ul li {
+    border-top: 2px solid white;
+}
+
+/* line 5, theme/simple/sass/includes/_bc.scss */
+.breadcrumb-item a, .breadcrumb-item a:active, .breadcrumb-item a:hover, .breadcrumb-item a:visited, .breadcrumb-item a:focus {
+    color: black;
+}
+
+/* line 10, theme/simple/sass/includes/_bc.scss */
+.breadcrumb-item + .breadcrumb-item:before {
+    color: black;
+    content: ">";
+  /*&#x2660;*/
+}
+
+/* line 2, theme/simple/sass/includes/_nav-side.scss */
+.nav-side {
+    border-radius: 2px;
+    border: none;
+}
+  /* line 13, theme/simple/sass/includes/_nav-side.scss */
+.nav-side li:last-child {
+    border-bottom: none;
+}
+
+/* line 37, theme/simple/sass/includes/_nav-side.scss */
+.vstrech {
+    min-height: 100vh;
+    height: 100%;
+}
+
+/* line 43, theme/simple/sass/includes/_nav-side.scss */
+.nav-side-wrapper h2, .nav-side-wrapper h3, .nav-side-wrapper h4 {
+    background-color: transparent;
+}
+
+/* line 1, theme/simple/sass/includes/_dashboard.scss */
+.btn-dashboard {
+    background-color: #f0f0f0;
+}
+
+/* line 2, theme/simple/sass/includes/_table.scss */
+table th {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+/* line 2, theme/simple/sass/includes/_tb.scss */
+.mini-tb .btn-tb {
+    color: black;
+}
+  /* line 4, theme/simple/sass/includes/_tb.scss */
+.mini-tb .btn-tb.active .img-wrapper {
+    border: thin solid black;
+}
+  /* line 8, theme/simple/sass/includes/_tb.scss */
+.mini-tb .btn-tb i {
+    background-color: #eee;
+}
+  /* line 11, theme/simple/sass/includes/_tb.scss */
+.mini-tb .btn-tb .img-wrapper {
+    background-color: #eee;
+}
+
+/*============================================================================
+	Tabs	v1
+============================================================================*/
+/* line 5, theme/simple/sass/includes/_tabs.scss */
+nav.nav-slick .nav-link {
+    border-bottom: 1px solid black;
+    color: black;
+}
+  /* line 8, theme/simple/sass/includes/_tabs.scss */
+nav.nav-slick .nav-link.active {
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+/*============================================================================
+	Actions Menu	v1
+============================================================================*/
+/* line 5, theme/simple/sass/includes/_actions-menu.scss */
+.actions-menu a, .actions-menu button {
+    color: black;
+}
+  /* line 7, theme/simple/sass/includes/_actions-menu.scss */
+.actions-menu a:hover, .actions-menu a:visited, .actions-menu a:active, .actions-menu a:focus, .actions-menu button:hover, .actions-menu button:visited, .actions-menu button:active, .actions-menu button:focus {
+    color: black;
+}
+  /* line 10, theme/simple/sass/includes/_actions-menu.scss */
+.actions-menu a:hover, .actions-menu button:hover {
+    border-left: 4px solid black;
+}

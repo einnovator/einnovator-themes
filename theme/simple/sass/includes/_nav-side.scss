@@ -1,0 +1,60 @@
+
+.nav-side {
+	border-radius: 2px;
+    border: none;
+    
+	li ul {
+	}
+
+	li i {
+	}
+
+	li {
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+	
+	li ul li {
+	}
+	
+	li ul li:last-child {
+	}
+	
+	a, a:hover, a:visited, a:active, a:focus {
+	}
+	
+	a:hover, a:active, a:focus {
+	}
+
+	
+	a.active {
+	}	
+	
+}
+
+
+.vstrech {
+	min-height: 100vh;
+	height: 100%;
+}
+
+.nav-side-wrapper  {
+	h2, h3, h4 {
+		background-color: transparent;
+	}
+	
+	h3 i {
+	}
+}
+
+
+.nav-tb-wrapper  {
+	h2, h3, h4 {
+	}
+	
+	h3 i {
+	}
+
+}
+

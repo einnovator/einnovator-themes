@@ -1,0 +1,40 @@
+/*============================================================================
+  Profile
+============================================================================*/
+
+
+.profile-header {
+	.profile-content-wrapper {
+		.profile-content {
+			.profile-title {
+				color: $primary;
+			}	
+		}
+	}	
+	.avatar-xxlg {
+		border: 4px solid white;
+		background-color: white;
+	}
+}
+
+.btn-profile {
+	background-color: white;
+	color: $primary;
+	.profile-user-location {
+		color: $primary;
+	}
+	
+	.profile-social {
+		color: $primary;
+	  a {
+		color: $primary;
+	  }
+	}	
+}
+.about {
+	.about-h {
+		color: $primary;
+	}
+	.about-text {
+	}
+}

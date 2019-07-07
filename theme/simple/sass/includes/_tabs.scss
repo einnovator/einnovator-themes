@@ -1,0 +1,14 @@
+/*============================================================================
+	Tabs	v1
+============================================================================*/
+nav.nav-slick  {
+	.nav-link {
+		border-bottom: 1px solid $primary;
+		color:  $primary;
+		&.active {
+			border-bottom: 3px solid $primary;
+			color:  $primary;
+		}
+	}
+} 
+

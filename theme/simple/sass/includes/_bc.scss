@@ -1,0 +1,16 @@
+.breadcrumb {
+}
+
+.breadcrumb-item a {	
+	& , &:active, &:hover, &:visited, &:focus {
+		color: $primary;
+	}
+}
+
+.breadcrumb-item + .breadcrumb-item:before {
+    color: $primary;
+    content: ">"; /*&#x2660;*/
+}
+
+.breadcrumb-wrapper {
+}

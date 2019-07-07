@@ -1,0 +1,14 @@
+/*============================================================================
+	Actions Menu	v1
+============================================================================*/
+.actions-menu {
+	a, button {
+		color: $primary;
+		&:hover, &:visited, &:active, &:focus {
+			color: $primary;
+		}
+		&:hover {
+			border-left: 4px solid $primary;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+/*============================================================================
+  SSO v1.0
+============================================================================*/
+/*============================================================================
+  Profile
+============================================================================*/
+/* line 9, theme/simple/sass/sso/_profile.scss */
+.profile-header .profile-content-wrapper .profile-content .profile-title {
+    color: black;
+}
+
+/* line 14, theme/simple/sass/sso/_profile.scss */
+.profile-header .avatar-xxlg {
+    border: 4px solid white;
+    background-color: white;
+}
+
+/* line 20, theme/simple/sass/sso/_profile.scss */
+.btn-profile {
+    background-color: white;
+    color: black;
+}
+  /* line 23, theme/simple/sass/sso/_profile.scss */
+.btn-profile .profile-user-location {
+    color: black;
+}
+  /* line 27, theme/simple/sass/sso/_profile.scss */
+.btn-profile .profile-social {
+    color: black;
+}
+    /* line 29, theme/simple/sass/sso/_profile.scss */
+.btn-profile .profile-social a {
+    color: black;
+}
+
+/* line 35, theme/simple/sass/sso/_profile.scss */
+.about .about-h {
+    color: black;
+}
+
+/*============================================================================
+ Tos v1
+============================================================================*/
+/*============================================================================
+  invitations v1
+============================================================================*/
+/*============================================================================
+	login
+============================================================================*/

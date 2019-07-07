@@ -1,0 +1,9 @@
+.hurkanSwitch > .hurkanSwitch-switch-box {
+	> .hurkanSwitch-switch-item.active {
+		&.hurkanSwitch-switch-item-status-off {
+		}
+		&.hurkanSwitch-switch-item-status-on {
+		}
+	}
+}
+

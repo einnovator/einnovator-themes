@@ -1,0 +1,28 @@
+.layout {
+	padding-bottom: 0;
+}
+
+.layout {
+	> * {
+		padding-top: 20px;
+		padding-bottom: 40px;
+		padding-left: 40px;
+	}
+	> :first-child {
+		flex: .25;
+		padding-left: 0;
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+		margin-left: 0;
+		&.bg {
+			background-color: #2d6394;
+			border-right: 4px solid #eee;
+		}
+	}
+	
+	> :last-child {
+		padding-left: 0;
+		flex: .3;
+	}
+}

@@ -1,0 +1,16 @@
+.mini-tb {
+	.btn-tb {
+		&.active {
+			.img-wrapper {
+				border: thin solid $primary;
+			}
+		}
+		i {
+			background-color: #eee;
+		}
+		.img-wrapper {
+			background-color: #eee;
+		}
+		color: $primary;
+	}
+}

@@ -1,0 +1,19 @@
+/*============================================================================
+	Checkmark
+============================================================================*/
+
+.checkmark-wrapper {
+	.checkmark, .radiomark {
+		border: thin solid $primary;
+	}
+	&:hover {
+		input ~ .checkmark, input ~ .radiomark { /* On mouse-over */
+			background-color: $primary-hover;
+		}	
+	}
+	input:checked ~ .checkmark, input:checked ~ .radiomark{ /* On checked */
+		background-color: $primary;
+	}
+}
+
+
