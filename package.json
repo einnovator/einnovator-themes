@@ -19,7 +19,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-webserver": "^0.9.1",
     "install": "^0.11.0",
-    "npm": "^6.1.0"
+    "npm": "^6.14.6"
   },
   "dependencies": {
     "natives": "^1.1.6",
