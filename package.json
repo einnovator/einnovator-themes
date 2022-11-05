@@ -11,7 +11,7 @@
   "devDependencies": {
     "browser-sync": "^2.24.4",
     "cors": "^2.8.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-connect": "^5.5.0",
     "gulp-cssbeautify": "^1.0.0",
     "gulp-cssnano": "^2.1.3",
